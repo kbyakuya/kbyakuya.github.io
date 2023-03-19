@@ -15,9 +15,6 @@ jobs:
     permissions:
       pages: write
       id-token: write
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v3
         with:
@@ -33,11 +30,14 @@ jobs:
       - name: Install dependencies
         run: pnpm install
       - name: Build
+        env:
+          NODE_OPTIONS: --max_old_space_size=4096      
         run: pnpm build
-      - uses: actions/configure-pages@v2
-      - uses: actions/upload-pages-artifact@v1
+      - name: Deploy to GitHub Pages
+        uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
-          path: ./.vitepress/dist
-      - name: Deploy
-        id: deployment
-        uses: actions/deploy-pages@v1
+          target_branch: gh-pages
+          build_dir: ./.vitepress/dist
+          jekyll: false
+        env:
+          GH_PAT: ${{ secrets.DEPLOY_GH }}
