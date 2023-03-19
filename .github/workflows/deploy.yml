@@ -9,6 +9,14 @@ on:
       - '.gitignore'
       - 'LICENSE'
       - 'README.md'
+  pull_request:
+    branches:
+      - main
+      - master
+    paths-ignore:
+      - '.gitignore'
+      - 'LICENSE'
+      - 'README.md'  
 jobs:
   deploy:
     runs-on: ubuntu-latest
