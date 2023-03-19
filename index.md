@@ -5,7 +5,7 @@ titleTemplate: record something
 hero:
   name: kbyakuya
   text: record something
-  tagline: 见证者，为见证而来 | 铭记者，因铭记而生
+  tagline: I know the person who you are.
   image:
     src: /img/home.jpg
     alt: none
