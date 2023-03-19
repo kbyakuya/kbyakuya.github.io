@@ -22,7 +22,13 @@ jobs:
         with:
           node-version: 16
           cache: pnpm
-      - run: pnpm ci
+      - uses: pnpm/action-setup@v2.2.4
+        name: Install pnpm
+        id: pnpm-install
+        with:
+          version: 7
+      - name: Install dependencies
+        run: pnpm install
       - name: Build
         run: pnpm build
       - uses: actions/configure-pages@v2
