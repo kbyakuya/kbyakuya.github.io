@@ -1,6 +1,6 @@
 import { defineConfig } from 'vitepress'
-import { navbar } from './navbar'
-import { sidebar } from './sidebar'
+import { navbar, navbar_zh } from './navbar'
+import { sidebar, sidebar_zh } from './sidebar'
 
 export default defineConfig({
     // These are app level configs.
@@ -37,5 +37,23 @@ export default defineConfig({
             copyright: 'Copyright © 2023-present kbyakuya'
         },
 
-    }
+    },
+    locales: {
+        root: {
+            label: 'English',
+            lang: 'en'
+        },
+        zh: {
+            label: '中文',
+            lang: 'zh', // optional, will be added  as `lang` attribute on `html` tag
+            link: '/zh/', // default /fr/ -- shows on navbar translations menu, can be external
+
+            // other locale specific properties...
+            themeConfig: {
+                nav: navbar_zh,
+                sidebar: sidebar_zh,
+            }
+
+        }
+    },
 })

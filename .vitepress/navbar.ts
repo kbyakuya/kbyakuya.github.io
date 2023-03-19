@@ -16,3 +16,22 @@ export const navbar =
         }
       
 ]
+
+export const navbar_zh = 
+    [
+        { text: '面试', link: '/zh/interview', activeMatch: '/zh/interview/' },
+        {
+          text: '外链',
+          items: [
+            {
+              text: '领导力准则',
+              link: 'https://augusmeow.github.io/notes/career/amazon/leadership-principles/'
+            },
+            {
+              text: 'Augus职业笔记',
+              link: 'https://augusmeow.github.io/notes/career/'
+            }
+          ]
+        }
+      
+]
