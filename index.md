@@ -7,7 +7,7 @@ hero:
   text: record something
   tagline: I know the person who you are.
   image:
-    src: /img/home.jpg
+    src: /img/9761679212112_.pic.jpg
     alt: none
   actions:
     - theme: brand
