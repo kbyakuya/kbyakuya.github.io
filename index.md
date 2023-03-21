@@ -13,9 +13,9 @@ hero:
     - theme: brand
       text: Leadership Principles
       link: https://augusmeow.github.io/notes/career/amazon/leadership-principles/        
-    - theme: brand
-      text: Leadership Principles
-      link: https://github.com/kbyakuya/kbyakuya.github.io/blob/main/interview.md
+    - theme: alt
+      text: Interview
+      link: /interview
     - theme: alt
       text: todo
       link: /

@@ -14,8 +14,11 @@ hero:
       text: 领导力准则
       link: https://augusmeow.github.io/notes/career/amazon/leadership-principles/
     - theme: alt
+      text: 面试
+      link: /zh/interview
+    - theme: alt
       text: 代办
-      link: /zh/       
+      link: /zh/
 # Could add features description here
 features:
   - title: 领导力准则
