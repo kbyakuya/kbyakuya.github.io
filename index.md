@@ -12,10 +12,13 @@ hero:
   actions:
     - theme: brand
       text: Leadership Principles
-      link: https://augusmeow.github.io/notes/career/amazon/leadership-principles/
+      link: https://augusmeow.github.io/notes/career/amazon/leadership-principles/        
+    - theme: brand
+      text: Leadership Principles
+      link: https://github.com/kbyakuya/kbyakuya.github.io/blob/main/interview.md
     - theme: alt
       text: todo
-      link: /       
+      link: /
 # Could add features description here
 features:
   - title: Leadership Principles
