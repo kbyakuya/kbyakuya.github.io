@@ -17,8 +17,17 @@ hero:
       text: Interview
       link: /interview
     - theme: alt
-      text: todo
-      link: /
+      text: Augus Home
+      link: https://draugus.github.io
+    - theme: alt
+      text: Genshin Home
+      link: https://draugus.github.io/game/genshin/
+    - theme: alt
+      text: Genshin Timeline
+      link: https://draugus.github.io/game/genshin/timeline
+    - theme: alt
+      text: Genshin Fork
+      link: https://draugus.github.io/game/genshin/uptable      
 # Could add features description here
 features:
   - title: Leadership Principles

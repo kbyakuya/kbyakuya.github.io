@@ -17,8 +17,17 @@ hero:
       text: 面试
       link: /zh/interview
     - theme: alt
-      text: 代办
-      link: /zh/
+      text: Augus 主页
+      link: https://draugus.github.io
+    - theme: alt
+      text: 原神主页
+      link: https://draugus.github.io/game/genshin/
+    - theme: alt
+      text: 原神祈愿时间轴
+      link: https://draugus.github.io/game/genshin/timeline
+    - theme: alt
+      text: 原神复刻记录
+      link: https://draugus.github.io/game/genshin/uptable
 # Could add features description here
 features:
   - title: 领导力准则
