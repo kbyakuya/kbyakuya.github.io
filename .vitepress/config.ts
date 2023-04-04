@@ -8,7 +8,7 @@ export default defineConfig({
     description: 'kbyakuya',
     base: "/",
     lastUpdated: true,
-    cleanUrls: 'without-subfolders',
+    cleanUrls: true,
     head: [
         ['link', {
             rel: 'icon',
@@ -65,6 +65,7 @@ export default defineConfig({
                 sidebarMenuLabel: '菜单',
                 returnToTopLabel: '返回顶部',
                 langMenuLabel: '切换语言',
+                outlineTitle: '本页内容',
             }
 
         }
