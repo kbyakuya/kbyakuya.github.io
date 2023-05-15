@@ -12,22 +12,34 @@ hero:
   actions:
     - theme: brand
       text: 领导力准则
-      link: https://augusmeow.github.io/notes/career/amazon/leadership-principles/
+      link: https://augusmeow.github.io/life/career/amazon/leadership-principles
     - theme: alt
       text: 面试
-      link: /zh/interview
+      link: /interview
     - theme: alt
-      text: Augus 主页
-      link: https://draugus.github.io
-    - theme: alt
+      text: Augus 网站主页
+      link: https://augusmeow.github.io
+    - theme: brand
       text: 原神主页
-      link: https://draugus.github.io/game/genshin/
+      link: https://draugus.github.io/genshin/
+    - theme: alt
+      text: 崩坏·星穹铁道主页
+      link: https://draugus.github.io/hsr/
     - theme: alt
       text: 原神祈愿时间轴
-      link: https://draugus.github.io/game/genshin/timeline
+      link: https://draugus.github.io/genshin/timeline
+    - theme: alt
+      text: 崩坏·星穹铁道跃迁时间轴
+      link: https://draugus.github.io/hsr/timeline
     - theme: alt
       text: 原神复刻记录
-      link: https://draugus.github.io/game/genshin/uptable
+      link: https://draugus.github.io/genshin/uptable  
+    - theme: alt
+      text: 原神近期祈愿
+      link: https://draugus.github.io/genshin/wish-recent
+    - theme: alt
+      text: 崩坏·星穹铁道近期跃迁
+      link: https://draugus.github.io/hsr/wish-recent 
 # Could add features description here
 features:
   - title: 领导力准则

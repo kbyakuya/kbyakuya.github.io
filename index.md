@@ -12,22 +12,34 @@ hero:
   actions:
     - theme: brand
       text: Leadership Principles
-      link: https://augusmeow.github.io/notes/career/amazon/leadership-principles/        
+      link: https://augusmeow.github.io/life/career/amazon/leadership-principles
     - theme: alt
       text: Interview
       link: /interview
     - theme: alt
       text: Augus Home
-      link: https://draugus.github.io
-    - theme: alt
+      link: https://augusmeow.github.io
+    - theme: brand
       text: Genshin Home
-      link: https://draugus.github.io/game/genshin/
+      link: https://draugus.github.io/genshin/
+    - theme: alt
+      text: Honkai Star Rail Home
+      link: https://draugus.github.io/hsr/
     - theme: alt
       text: Genshin Timeline
-      link: https://draugus.github.io/game/genshin/timeline
+      link: https://draugus.github.io/genshin/timeline
+    - theme: alt
+      text: HSR Timeline
+      link: https://draugus.github.io/hsr/timeline
     - theme: alt
       text: Genshin Fork
-      link: https://draugus.github.io/game/genshin/uptable      
+      link: https://draugus.github.io/genshin/uptable  
+    - theme: alt
+      text: Genshin Recent Wish
+      link: https://draugus.github.io/genshin/wish-recent
+    - theme: alt
+      text: HSR Recent Wish
+      link: https://draugus.github.io/hsr/wish-recent           
 # Could add features description here
 features:
   - title: Leadership Principles
