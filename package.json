@@ -2,6 +2,7 @@
   "name": "kbyakuya",
   "version": "1.0.0",
   "description": "kbyakuya",
+  "type": "module",
   "main": "index.js",
   "author": "kbyakuya",
   "private": false,
