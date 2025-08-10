@@ -29,12 +29,12 @@ jobs:
           fetch-depth: 0
       - uses: actions/setup-node@v4
         with:
-          node-version: 22
+          node-version: 22.18.0
       - uses: pnpm/action-setup@v4.1.0
         name: Install pnpm
         id: pnpm-install
         with:
-          version: 7
+          version: 7.33.7
       - name: Install dependencies
         run: pnpm install --no-frozen-lockfile
       - name: Build
