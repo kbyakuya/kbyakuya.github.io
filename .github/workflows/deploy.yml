@@ -34,7 +34,7 @@ jobs:
         name: Install pnpm
         id: pnpm-install
         with:
-          version: 10.28.1
+          version: 10.28.2
       - name: Install dependencies
         run: pnpm install --no-frozen-lockfile
       - name: Build
